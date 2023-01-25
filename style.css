@@ -1,0 +1,322 @@
+body{
+    margin:0;
+    padding: 0;
+
+    overflow:scroll;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    height: 80px;
+    background-color: #e9ad00;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 0 3vw;
+}
+
+.logoImage{
+    width: 10rem;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 32vw;
+}
+
+.navBar li{
+    list-style-type: none;
+
+}
+
+.navBar li a{
+    color: white;
+    text-decoration: none;
+
+    font-size: 18px;
+}
+
+.inputHeader{
+    display: flex;
+}
+
+.inputHeader input{
+    width: 120px;
+    background-color: transparent;
+
+    background-color: rgb(251, 197, 1);
+    border: none;
+}
+
+.inputHeader input::placeholder{
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.inputHeader img{
+    width: 50px;
+}
+
+.generalYellowContainerProperties{
+    background-color: rgb(251, 197, 1);
+    height: 85vh;
+
+    color: white;
+}
+
+.subYellowContainerGeneralProperties{
+    width: 80vw;
+    height: 85vh;
+    margin: 0 10vw;
+
+    display: flex;
+    align-items:center;
+}
+
+.firstContainerleftBox{
+    width: 45vw;
+}
+
+.generalButton{
+    padding: 10px;
+
+    border-radius: 5px;
+    border:2px white solid;
+
+    background-color: transparent;
+    color: white;
+}
+
+.generalAqueaBlueButtonInfo{
+    border: none;
+    padding: 12px 16px;
+
+    background-color: rgb(0, 189, 201);
+}
+
+.generalButtonContainerInfo{
+    margin: 3vw 0; 
+}
+
+.firstContainerRightBox{
+    width: 35vw;
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+.generalImageProperties{
+    width: 250px;
+}
+
+.generalWhiteContainerProperties{
+    height: 70vh;
+}
+
+.subWhiteContainerGeneralProperties{
+    width: 80vw;
+    height: 70vh;
+    margin: 0 10vw;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.secondContainerLeftBox{
+    width: 40vw;
+}
+
+.yellowButtonProperties{
+    background-color: rgb(251, 195, 1);
+    border: none;
+
+    padding: 12px 15px;
+}
+
+.rightBox{
+    width: 40vw;
+    float: left;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.ExternalSubContainer{
+    width: auto;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+
+    margin: 0 10vw;
+}
+
+.textSubGeneralContainer{
+    width: 50vw;
+    margin: 3vh;
+}
+
+.generalLowSideImageContainer{
+    width: 20vw;
+    margin: 0 3vw;
+}
+
+.fourthContainerRigthtBox{
+    width: 40vw;
+    margin: 0 5vw;
+
+    text-align: right;
+}
+
+.fourthContainerleftBox{
+    width: 40vw;
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+.interline{
+    text-decoration:line-through;
+}
+
+.fifthContainerButton{
+    padding: 9px 25px;
+
+    background-color: rgb(0, 189, 201);
+    border: none;
+    color: white;
+
+    border-radius: 50px;
+}
+
+.specialWhiteContainerProperties{
+    height: 110vh;
+}
+
+.sixthContainerSocialNetworkImages{
+    width: 24vw;
+}
+
+.seventhContainer{
+    width: 97vw;
+}
+
+.subespecificationSpecialWhiteContainerProperties{
+    height: 70vw;
+}
+
+.eightContainerProperties{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    border-radius: 5px;
+    border: 1px gray solid;
+    width: 25vw;
+
+    
+    margin: 2vw;
+}
+
+.cardImagen{
+    width: 25vw;
+}
+
+.cardSubContainer{
+    margin-top: -20px;
+
+    padding: 10px;
+}
+
+.cardSubContainer p{
+    margin-top: -10px;
+    
+}
+
+.cardSubContainer a{
+    color: rgb(85, 212, 219);
+    text-decoration: none;
+
+    font-size: 15px;
+}
+
+.cardSubContainer h6{
+    color: rgb(85, 212, 219); 
+    margin-top: -15px;
+}
+
+footer{
+    height: 40vw;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 0 60px; 
+
+    color: white;
+    background-color: rgb(51, 51, 51);
+}
+
+.hiperlinks div{
+    margin: 5px 0; 
+}
+.hiperlinks div a{
+    color: white;
+    text-decoration: none;
+}
+
+.footerContainer{
+    text-align: right;
+}
+
+.footerSmallContainer{
+    width: 30vw;
+    height: 50px;
+
+    display: flex;
+    justify-content: right;
+
+    background-color: #e9ad00;
+}
+
+.insideSmallContainer{
+    width: 80px;
+    height: 50px;
+    background-color: rgb(0, 189, 201);   
+}
+
+.insideSmallContainer img{
+    position: relative;
+    bottom: 2px;
+    right: 10px;
+    width: 60px;
+}
+
+.socialnetworkLogos{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerLogoImage{
+    width: 4vw;
+
+    padding: 2vw 1vw;
+}
